@@ -1,6 +1,9 @@
+/* eslint-disable */
+// this is an auto generated file. This will be overwritten
+
 export const onCreateDoge = /* GraphQL */ `
-  subscription OnCreateDoge {
-    onCreateDoge {
+  subscription OnCreateDoge($filter: ModelSubscriptionDogeFilterInput) {
+    onCreateDoge(filter: $filter) {
       id
       price
       createdAt
@@ -9,8 +12,8 @@ export const onCreateDoge = /* GraphQL */ `
   }
 `;
 export const onUpdateDoge = /* GraphQL */ `
-  subscription OnUpdateDoge {
-    onUpdateDoge {
+  subscription OnUpdateDoge($filter: ModelSubscriptionDogeFilterInput) {
+    onUpdateDoge(filter: $filter) {
       id
       price
       createdAt
@@ -19,8 +22,8 @@ export const onUpdateDoge = /* GraphQL */ `
   }
 `;
 export const onDeleteDoge = /* GraphQL */ `
-  subscription OnDeleteDoge {
-    onDeleteDoge {
+  subscription OnDeleteDoge($filter: ModelSubscriptionDogeFilterInput) {
+    onDeleteDoge(filter: $filter) {
       id
       price
       createdAt

@@ -10,13 +10,20 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 7,
-              "apiKeyExpirationDate": "2022-10-27T19:18:40.881Z",
+              "apiKeyExpirationDate": "2022-10-28T14:54:28.193Z",
               "description": "dogekey"
             }
           },
           "additionalAuthenticationProviders": []
         }
       }
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
     }
   }
 }

@@ -6,3 +6,4 @@ type Doge @model {
   id: ID!
   price: Float!
 }
+
